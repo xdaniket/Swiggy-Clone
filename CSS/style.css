@@ -1,0 +1,350 @@
+body {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.Parent-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+.Left-Container {
+    width: 57%;
+    margin-left: -28px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.both {
+    display: flex;
+    margin-top: 75px;
+    align-items: baseline;
+}
+
+.link {
+    margin-right: 35px;
+}
+
+.link a {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    font-size: 19px;
+    font-weight: 600;
+    padding: 7px;
+}
+
+.mid {
+    margin-top: 58px;
+    margin-left: 105px;
+}
+
+.msg {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+.msg2 {
+    font-size: 27px;
+    font-weight: 300;
+    color: #686b78;
+}
+
+.fill {
+    display: flex;
+    margin-left: 105px;
+    margin-top: 33px;
+    border-radius: 0px;
+
+
+
+}
+
+.fill input {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+    width: 482px;
+    height: 27px;
+    border: 1px solid grey;
+
+}
+
+.button2 {
+    border-radius: 0px;
+    cursor: pointer;
+    height: 55px;
+    width: 113px;
+    border: none;
+    color: white;
+    background-color: #fc8019;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.city {
+    margin-left: 105px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #a9abb2
+}
+
+.citi {
+    margin-left: 105px;
+}
+
+.citi p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.citi span {
+    color: black;
+}
+
+.Right-Container {
+    width: 43%;
+
+
+}
+
+
+
+
+
+
+
+
+
+.image img {
+    height: 46px;
+    width: 163px;
+}
+
+
+.right-image img {
+    height: 571px;
+    width: 740px;
+}
+
+
+.middle-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #2b1e16;
+    padding: 0 20px;
+    margin-top: -4px;
+
+}
+
+.img1 img {
+    height: 210px;
+    width: 110px;
+    margin-left: 80px;
+
+}
+
+.img2 img {
+    height: 210px;
+    width: 110px;
+    margin-left: 73px;
+}
+
+.img3 img {
+    height: 210px;
+    width: 110px;
+    margin-left: 66px;
+}
+
+.word {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 27px;
+    text-align: center;
+}
+
+.detail {
+    font-size: 15px;
+    width: 260px;
+    margin-top: 13px;
+    color: #e0cbc1;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.bottom-container {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+.btm1 {
+    margin-left: 80px;
+    margin-top: 153px;
+}
+
+.txt1 {
+    color: #282c3f;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.txt2 {
+    color: #7e808c;
+    font-size: 20px;
+    font-weight: 300;
+    width: 405px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.img3 {
+    display: flex;
+}
+
+.img3a img {
+    margin-left: 2px;
+    height: 49px;
+    width: 157px;
+}
+
+.img3b img {
+    margin-left: 30px;
+    height: 49px;
+    width: 157px;
+}
+
+.btm2 {
+    margin-left: 75px;
+
+}
+
+.btm2 img {
+
+    height: 483px;
+    width: 360x;
+
+}
+
+.btm3 {
+    margin-top: 125px;
+}
+
+.btm3 img {
+    height: 384px;
+    width: 360px;
+
+}
+.Down-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    margin-top: -4px;
+
+}
+.fh{
+    color: grey;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.flist{
+    list-style: none;
+    font-size: 16px;
+}
+.flist li{
+    margin-bottom: 20px;
+}
+.ftrimg img{
+    height: 62px;
+    width: 172px;
+    border: 2px solid grey;
+    border-radius: 11px;
+    margin-bottom: 22px;
+
+}
+.hr_line{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.line {
+    background-color: #7e808c;
+    border: none;
+    height: 1px;
+    width: 87%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Footer-container{
+display: flex;
+justify-content: space-around;
+width: 100%;
+background-color: black;
+color: white
+}
+.swiggy-logo{
+    margin-left: -95px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+
+}
+.swiggy-logo img{
+    height: 46px;
+}
+.copy{
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-size: 19px;
+
+}
+.social{
+    margin-top: 36px;
+    margin-bottom: 18px;
+    margin-left: -80px;
+    margin-right: -113px;
+}
+.social img{
+    width: 24px;
+    margin-right: 38px;
+}
